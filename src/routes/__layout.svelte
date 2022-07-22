@@ -13,6 +13,7 @@
     import Banner from '$lib/components/Banner.svelte';
     import List from '$lib/components/List.svelte';
     import Pricing from '$lib/components/Pricing.svelte';
+    import Review from '$lib/components/Review.svelte';
 
 	storyblokInit({
 		accessToken: import.meta.env.VITE_STORYBLOK_ACCESS_TOKEN,
@@ -31,6 +32,7 @@
             banner: Banner,
             list: List,
             pricing: Pricing,
+            review: Review
 		}
 	});
 </script>
