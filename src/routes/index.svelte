@@ -1,4 +1,5 @@
 <script context="module">
+  export const prerender = true;
   import { useStoryblokApi } from "@storyblok/svelte";
   
   export async function load(){
