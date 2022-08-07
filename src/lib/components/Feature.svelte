@@ -1,9 +1,9 @@
 <script>
-import { storyblokEditable } from "@storyblok/svelte";
+	import { storyblokEditable } from '@storyblok/svelte';
 
-export let blok;
+	export let blok;
 </script>
 
 <div use:storyblokEditable={blok}>
-  <p>{ blok.name }</p>
+	<p>{blok.name}</p>
 </div>
