@@ -6,7 +6,7 @@
 
 <div use:storyblokEditable={blok}>
 	<section class="bg-neutral-50 dark:bg-neutral-900">
-		<div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+		<div class="max-w-screen-xl px-4 py-8 mx-8 lg:mx-auto text-center lg:py-24 lg:px-6">
 			<figure class="max-w-screen-md mx-auto">
 				<svg
 					class="h-12 mx-auto mb-3 text-neutral-400 dark:text-neutral-600"
