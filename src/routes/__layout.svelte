@@ -14,6 +14,7 @@
     import List from '$lib/components/List.svelte';
     import Pricing from '$lib/components/Pricing.svelte';
     import Review from '$lib/components/Review.svelte';
+	import Metadata from '../lib/components/Metadata.svelte';
 
 	// Layouts
 	import Page from '$lib/layouts/Page.svelte';
@@ -38,7 +39,8 @@
             list: List,
             pricing: Pricing,
             review: Review,
-			footer: Footer
+			footer: Footer,
+			metadata: Metadata
 		}
 	});
 </script>
