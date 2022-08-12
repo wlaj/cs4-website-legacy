@@ -6,7 +6,7 @@
 
 <div
 	use:storyblokEditable={blok}
-	class="flex flex-col max-w-lg p-6 mx-auto text-center text-neutral-900 bg-white border border-neutral-100 rounded-lg shadow dark:border-neutral-600 xl:p-8 dark:bg-neutral-800 dark:text-white"
+	class="flex flex-col max-w-5xl p-6 mx-6 lg:mx-auto text-center text-neutral-900 bg-white border border-neutral-100 rounded-lg shadow dark:border-neutral-600 xl:p-8 dark:bg-neutral-800 dark:text-white"
 >
 	<h3 class="mb-4 text-2xl font-semibold">{blok.headline}</h3>
 	<p class="font-light text-neutral-500 sm:text-lg dark:text-neutral-400">{blok.description}</p>

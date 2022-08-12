@@ -6,7 +6,7 @@
 
 <div use:storyblokEditable={blok}>
 	<section class="bg-white dark:bg-black">
-		<div class="flex max-w-5xl mx-8 lg:mx-auto pt-20 pb-8 lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
+		<div class="flex max-w-5xl mx-6 lg:mx-auto pt-20 pb-8 lg:gap-8 xl:gap-0 lg:py-16 lg:pt-28">
 			<div class="mr-auto place-self-center lg:col-span-7">
 				<h1
 					class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"

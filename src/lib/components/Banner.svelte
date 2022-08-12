@@ -4,7 +4,7 @@
 	export let blok;
 </script>
 
-<div use:storyblokEditable={blok} class="max-w-full bg-neutral-50 dark:bg-neutral-900 text-center">
+<div use:storyblokEditable={blok} class="max-w-full mx-6 lg:mx-auto bg-neutral-50 dark:bg-neutral-900 text-center">
 	<div class="max-w-5xl py-10 mx-auto">
 		<h2
 			class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-neutral-900 dark:text-white"

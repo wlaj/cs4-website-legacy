@@ -7,7 +7,7 @@
 <section class="bg-neutral-50 dark:bg-neutral-900">
 	<div
 		use:storyblokEditable={blok}
-		class="max-w-5xl py-8 mx-8 lg:mx-auto space-y-12 lg:space-y-20 lg:py-24"
+		class="max-w-5xl py-8 mx-6 lg:mx-auto space-y-12 lg:space-y-20 lg:py-24"
 	>
 		<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
 			<div class="text-neutral-500 sm:text-lg dark:text-neutral-400">
