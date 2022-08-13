@@ -26,9 +26,9 @@
 					{/each}
 				</div>
 			</div>
-			<div class="hidden lg:mt-0 lg:col-span-5">
+			<!-- <div class="hidden lg:mt-0 lg:col-span-5">
 				<img src={blok.image} alt={blok.name} />
-			</div>
+			</div> -->
 		</div>
 	</section>
 </div>
