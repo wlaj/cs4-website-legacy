@@ -6,8 +6,8 @@
 
 <div use:storyblokEditable={blok}>
 	<!-- <svg class="w-10 h-10 mb-2 text-blue-600 md:w-12 md:h-12 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"></path></svg> -->
-	<div class="mb-2 text-blue-600 w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 dark:text-blue-500">
-		<img src={blok.image} alt={blok.headline} />
+	<div class="mb-2 text-blue-600 text-5xl  dark:text-blue-500">
+		<ion-icon name={blok.icon}></ion-icon>
 	</div>
 	<h3 class="mb-2 text-2xl font-bold dark:text-white">{blok.headline}</h3>
 	<p class="font-light text-gray-500 dark:text-gray-400">{blok.description}</p>

@@ -6,7 +6,7 @@ export let blok;
 
 <div use:storyblokEditable={blok} class="w-full sticky top-0 mx-auto bg-white border-neutral-200 py-2.5 rounded backdrop-blur dark:bg-neutral-900/80">
   <div class="max-w-5xl flex flex-wrap justify-between items-center mx-6 lg:mx-auto">
-    <a href="https://flowbite.com/" class="flex items-center">
+    <a href="/" class="flex items-center">
         <img src={blok.logo} class="mr-3 h-6 sm:h-8" alt={blok.name} />
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">{blok.name}</span>
     </a>
