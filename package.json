@@ -9,7 +9,7 @@
 		"prepare": "svelte-kit sync",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"postbuild": "npx svelte-sitemap --domain https://cs4.live"
+		"postbuild": "npx svelte-sitemap --domain https://www.cs4.live"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
