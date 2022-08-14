@@ -4,7 +4,7 @@
 	export let blok;
 </script>
 
-<section class="bg-neutral-50 dark:bg-neutral-900">
+<section id="block" class="bg-neutral-50 dark:bg-neutral-900">
 	<div
 		use:storyblokEditable={blok}
 		class="max-w-5xl py-8 mx-6 lg:mx-auto space-y-12 lg:space-y-20 lg:py-24"
