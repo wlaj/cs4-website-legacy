@@ -8,8 +8,7 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. .",
-		"postbuild": "npx svelte-sitemap --domain https://www.cs4.live"
+		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
@@ -24,7 +23,6 @@
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.44.0",
 		"svelte-preprocess": "^4.10.7",
-		"svelte-sitemap": "^2.5.1",
 		"tailwindcss": "^3.1.5",
 		"vite": "^3.0.0"
 	},
