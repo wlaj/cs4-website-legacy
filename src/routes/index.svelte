@@ -24,6 +24,7 @@
 </script>
 
 <div>
+	<h1>Hi</h1>
 	{#if story}
 		<StoryblokComponent blok={story.content} />
 	{/if}
